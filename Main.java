@@ -1,10 +1,8 @@
-import java.util.Scanner;
-public class Main{
- public static void main(String args[]){
+public class Prog13{
+    int x=5;
+    public static void main(String[] args) {
+        Prog13 obj=new Prog13();
+        System.out.print(obj.x);
+    }
+}
 
- System.out.println("Enter any integer");
- Scanner sc=new Scanner(System.in);
- int a=sc.nextInt();
- System.out.println("The entered integer is: "+a);
-}
-}
